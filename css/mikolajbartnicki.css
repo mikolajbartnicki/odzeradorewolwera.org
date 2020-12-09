@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #0090f0;
+}
+
+a:hover, a:active {
+	color: #0090f0;
+	text-decoration: underline;
+}
+
+a.title {
+	color: #000000;
+	text-decoration: none;
+}
+
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Tinos, Serif;
+	font-size: 1.25em;
+}
+
+div.content {
+	background-color: #ffffff;
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2), 0px 16px 32px 0px rgba(0, 0, 0, 0.1);
+	color: #000000;
+	margin: 64px auto;
+	max-width: 960px;
+	padding: 120px 160px;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+
+img {
+	max-width: 100%;
+}
+
+p {
+	text-align: justify;
+}
+
+p.description {
+	font-size: 0.8em;
+	font-style: italic;
+	text-align: right;
+}
+
+p.footer {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+p.lead {
+	font-weight: bold;
+}
+
+p.note {
+	background-color: #fff4d1;
+	box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2), 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+	font-style: italic;
+	font-size: 0.8em;
+	margin: auto;
+	max-width: 75%;
+	padding: 24px;
+}
+
+p.quote {
+	font-size: 1.2em;
+	font-style: italic;
+	margin: auto;
+	max-width: 75%;
+}
+
+p.subtitle {
+	font-size: 0.8em;
+	font-style: italic;
+	text-align: left;
+}
+
+q {
+	font-style: italic;
+	quotes: "\201e" "\201d";
+}
+
+span.disabled {
+	color: #cccccc;
+}
+
+ul.navigation {
+	line-height: 2em;
+	margin: 0px;    /* to override possible default value */
+	padding: 0px;   /* to override possible default value */
+	text-align: center;
+}
+
+ul.navigation>li {
+	display: inline;
+	margin: 0.5em;
+}
+
+@media only screen and (max-width: 960px) {
+	div.content {
+		margin: 0 auto;
+		padding: 15%;
+	}
+}
+
+@media only screen and (max-width: 928px) {
+	div.content {
+		padding: 14%;
+	}
+}
+
+@media only screen and (max-width: 896px) {
+	div.content {
+		padding: 13%;
+	}
+}
+
+@media only screen and (max-width: 864px) {
+	div.content {
+		padding: 12%;
+	}
+}
+
+@media only screen and (max-width: 832px) {
+	div.content {
+		padding: 11%;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	div.content {
+		padding: 10%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	div.content {
+		padding: 9%;
+	}
+}
+
+@media only screen and (max-width: 736px) {
+	div.content {
+		padding: 8%;
+	}
+}
+
+@media only screen and (max-width: 704px) {
+	div.content {
+		padding: 7%;
+	}
+}
+
+@media only screen and (max-width: 672px) {
+	div.content {
+		padding: 6%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	div.content {
+		padding: 5%;
+	}
+}
