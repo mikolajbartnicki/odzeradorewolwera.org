@@ -1,6 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap'); */
-
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -28,8 +26,7 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	/* font-family: Tinos, Serif; */
-	font-family: 'Noto Serif', serif;
+	font-family: Tinos, Serif;
 	font-size: 1.25em;
 }
 
