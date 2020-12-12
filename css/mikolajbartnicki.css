@@ -55,6 +55,7 @@ p {
 
 p.description {
 	font-size: 0.8em;
+	font-style: italic;
 	text-align: right;
 }
 
@@ -86,6 +87,7 @@ p.quote {
 
 p.subtitle {
 	font-size: 0.8em;
+	font-style: italic;
 	text-align: left;
 }
 
