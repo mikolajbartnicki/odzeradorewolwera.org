@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /README.md
-
+Disallow: /PaddingCalculation.ps1
 Sitemap: https://odzeradorewolwera.org/sitemap.xml
