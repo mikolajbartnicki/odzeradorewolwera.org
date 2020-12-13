@@ -43,9 +43,9 @@ h1 {
 	text-align: center;
 }
 
-
-
 img {
+	display: block;
+	margin: auto;
 	max-width: 100%;
 }
 
@@ -74,7 +74,7 @@ p.note {
 	font-style: italic;
 	font-size: 0.8em;
 	margin: auto;
-	max-width: 75%;
+	max-width: 480px;
 	padding: 24px;
 }
 
@@ -82,7 +82,7 @@ p.quote {
 	font-size: 1.2em;
 	font-style: italic;
 	margin: auto;
-	max-width: 75%;
+	max-width: 480px;
 }
 
 p.subtitle {
@@ -111,6 +111,18 @@ ul.navigation>li {
 	margin: 0.5em;
 }
 
+/* 
+ * TODO: generate code to make step every 10px for width and 5px/4px for padding
+ * It will make 32 entries
+ *
+ * max-width: 960px
+ * padding: 128px 160px;
+ *
+ * max-width: 950px
+ * padding: 128px 155px;
+ *
+ * NOTE: keep vertical padding constant or decrease it by 4px, try what works better;
+ */
 @media only screen and (max-width: 960px) {
 	div.content {
 		margin: 0 auto;
