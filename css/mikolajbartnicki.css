@@ -119,9 +119,8 @@ ul.navigation>li {
  * padding: 128px 160px;
  *
  * max-width: 950px
- * padding: 128px 155px;
+ * padding: 124px 155px;
  *
- * NOTE: keep vertical padding constant or decrease it by 4px, try what works better;
  */
 @media only screen and (max-width: 960px) {
 	div.content {
